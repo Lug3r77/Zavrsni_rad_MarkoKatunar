@@ -1,0 +1,15 @@
+{
+  "name": "zavrsni_rad_markokatunar",
+  "version": "1.0.0",
+  "description": "Algebra/Front-end/Seminarski rad",
+  "main": "zavrsno.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lug3r77/Zavrsni_rad_MarkoKatunar.git"
+  },
+  "author": "Marko Katunar",
+  "license": "ISC"
+}

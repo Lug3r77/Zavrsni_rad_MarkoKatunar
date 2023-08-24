@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #1c00f2, #453f96);
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, #1c00f2 #453f96);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.chatbox {
+  background: #1d61c2;
+  width: 60%;
+  min-width: 250px;
+  height: 60%;
+  display: flex;
+}
+.member {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin: 10px;
+}
+.imena {
+  flex-basis: 250px;
+  background: #2f60a4;
+  height: 100%;
+}
+.razgovor {
+  flex: 1;
+  overflow: auto;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.razgovor input {
+  border: 0;
+  outline: none;
+  padding: 20px 40px;
+  background: #3874c9;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  flex-basis: 70%;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+::placeholder {
+  color: white;
+}
+.imena h3 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+}
+.imena ul {
+  list-style: none;
+  padding: 10px;
+}
+
+@media (max-width: 1257px) {
+  .member {
+    font-size: 16px;
+  }
+  .imena {
+    flex-basis: 170px;
+  }
+  .imena h3 {
+    margin-top: 80px;
+    font-size: 30px;
+  }
+  .imena ul li {
+    padding-top: 10px;
+    font-size: 25px;
+  }
+}
+@media (max-width: 1024px) {
+  .member {
+    font-size: 14px;
+  }
+  .imena {
+    flex-basis: 150px;
+  }
+  .imena h3 {
+    margin-top: 80px;
+    font-size: 25px;
+  }
+  .imena ul li {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  .razgovor input {
+    padding: 10px 40px;
+  }
+  .sadržaj {
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 970px) {
+  .member {
+    font-size: 12px;
+  }
+
+  .imena {
+    flex-basis: 100px;
+  }
+  .imena h3 {
+    margin-top: 80px;
+    font-size: 20px;
+  }
+  .imena ul li {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  .razgovor input {
+    padding: 10px 40px;
+  }
+  .poruka {
+    margin: 10px;
+  }
+  .sadržaj {
+    padding: 5px 10px;
+  }
+}
+@media (max-width: 768px) {
+  .member {
+    font-size: 10px;
+  }
+  .container {
+    width: unset;
+  }
+  .imena {
+    flex-basis: 70px;
+  }
+  .imena h3 {
+    margin-top: 80px;
+    font-size: 15px;
+  }
+  .imena ul li {
+    padding-top: 10px;
+    font-size: 10px;
+  }
+  .poruka {
+    margin: 5px;
+  }
+  .razgovor input {
+    padding: 10px 40px;
+  }
+  .sadržaj {
+    padding: 10px 20px;
+    max-width: unset;
+  }
+}
+@media (max-width: 540px) {
+  .member {
+    font-size: 8px;
+  }
+  .container {
+    width: unset;
+  }
+  .imena {
+    flex-basis: 70px;
+  }
+  .imena h3 {
+    margin-top: 80px;
+    font-size: 15px;
+  }
+  .imena ul li {
+    padding-top: 10px;
+    font-size: 10px;
+  }
+  .poruka {
+    margin: 5px;
+  }
+  .razgovor input {
+    padding: 10px 40px;
+  }
+  .sadržaj {
+    padding: 10px 20px;
+    max-width: unset;
+  }
+}
